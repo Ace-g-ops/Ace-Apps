@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="2style.css"> -->
+	<title>Web 3.0 Project</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<div id="logo">
+				<div id="mysidebar" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="#">Home</a>
+					<a href="#">New</a>
+					<a href="#">Popular</a>
+					<a href="#">Trending</a>
+					<a href="#">Categories</a>
+				</div>
+
+				<div #main>
+					<button class="openbtn" onclick="openNav()">&#9776;</button>
+				</div>
+				<img src="assets/images/logo.png">
+			</div>
+
+			<div id="menu">
+				<ul>
+					<li><a href="index1.html" style="color: #455aac">Home</a></li>
+					<li><a href="new.html" style></a>New</li>
+					<li><a href="popular.html"></a>Popular</li>
+					<li><a href="trending.html"></a>Trending</li>
+					<li style="border: none;" ><a href="Categories.html"></a>Categories</li>
+				</ul>
+			</div>
+		</div>
+		<div class="section1">
+			<div id="sect-1-box">
+				<img src="assets/images/maze.jpg">
+			</div>
+
+			<div id="block">
+				<h2>The bright future of Web3.0 ?</h2>
+			</div>
+			<div id="box">
+				<h2>We dive into the next evolution of the web that claims to power of the platform into the hands of the people. But, is it really fufilling its promise?</h2>
+				<button>Read More</button>
+			</div>
+			<div id="bud">
+				<h1>New</h1>
+				<div id="cone">
+					<p>Hydrogen VS ELECTRICAL CAR</p>
+					<h2>Will hydrogen-fueled cars ever catch up with EVS ?</h2>
+				</div>
+				<div id="cone">
+					<p>THE DOWNSIDE OF AI ARTISTRY</p>
+					<h2>What are the possible adverse effects of on-demand AI mage generation ?</h2>
+				</div>
+				<div id="cone">
+					<p>Is VC Funding Drying Up ?</p>
+					<h2>Private funding by VC firms is down by 50% YOY. We'll take a look what that means</h2>
+				</div>
+			</div>
+		</div>
+		<div class="section2">
+			<div id="poll">
+				<img src="assets/images/gamebox.jpg">
+				<h3>01</h3>
+				<p>Reviving retro PCs</p>
+				<h1>What happens when old PC are given modern upgrade ?</h1>
+			</div>
+			<div id="poll">
+				<img src="assets/images/laptop.jpg">
+				<h3>02</h3>
+				<p>Top ten laptop of 2022</p>
+				<h1>Our best picks for various needs and budget</h1>
+			</div>
+			<div id="poll">
+				<img src="assets/images/gamepad.jpg">
+				<h3>03</h3>
+				<p>The growth of gaming</p>
+				<h1>How the pandemic has sparked fresh opportunities</h1>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+		function openNav() {
+			 document.getElementById("mysidebar").style.width = "250px";
+			 document.getElementsById("main").style.marginLeft = "250px";		
+			}
+
+			function closeNav(){
+
+				document.getElementById("mysidebar").style.width = "0";
+				document.getElementById("main").style.marginLeft = "0";
+			}
+	</script>
+	</div>
+</body>
+</html>
